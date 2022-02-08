@@ -13,6 +13,7 @@ cssselect2==0.4.1
 defusedxml==0.7.1
 Django==3.2.12
 django-environ==0.8.1
+django-rosetta==0.9.3
 environ==1.0
 flower==0.9.3
 html5lib==1.1
@@ -21,6 +22,7 @@ importlib-metadata==4.8.3
 kombu==4.6.11
 Pillow==8.4.0
 pkg-resources==0.0.0
+polib==1.1.1
 pycparser==2.21
 pyphen==0.11.0
 pytz==2021.3

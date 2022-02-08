@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-08 10:08+0500\n"
+"PO-Revision-Date: 2022-02-08 06:12+0000\n"
+"Last-Translator: b'  <admin@mail.ru>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
+
+#: shop/templates/shop/base.html:11
+msgid "My Shop"
+msgstr "Mening Do'konim"
+
+#: shop/templates/shop/base.html:16
+msgid "My shop"
+msgstr "Mening Do'konim"
+
+#: shop/templates/shop/base.html:21
+msgid "Language"
+msgstr "Til"
+
+#: shop/templates/shop/base.html:39
+msgid "Your cart"
+msgstr "Sizning Savatchangiz"
+
+#: shop/templates/shop/base.html:41
+#, python-format, fuzzy
+msgid ""
+"\n"
+"            %(items)s item, $%(total)s\n"
+"            "
+msgid_plural ""
+"\n"
+"            %(items)s items, $%(total)s\n"
+"            "
+msgstr[0] ""
+"\n"
+"%(items)s buyurtma, $%(total)s"
+
+#: shop/templates/shop/base.html:48
+msgid "Your cart is empty."
+msgstr "Savatchangiz bo'sh"
+
+#: shop/templates/shop/product/detail.html:27
+msgid "Add to cart"
+msgstr "Savatchaga qo'shing"
+
+#: shop/templates/shop/product/list.html:5
+msgid "Product"
+msgstr "Mahsulot"
+
+#: shop/templates/shop/product/list.html:11
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: shop/templates/shop/product/list.html:14
+msgid "All"
+msgstr "Hammasi"
+
+#: shop/templates/shop/product/list.html:26
+msgid "Products"
+msgstr "Mahsulotlar"

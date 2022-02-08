@@ -1,5 +1,6 @@
-{% load i18n %}
 {% extends "shop/base.html" %}
+
+{% load i18n %}
 {% block title %}
 {% trans "Checkout" %}
 {% endblock %}
@@ -18,8 +19,7 @@
         {% endfor %}
         {% if cart.coupon %}
         <li>
-            {% blocktrans with code=cart.coupon.code discount=cart.
-            coupon.discount %}
+            {% blocktrans with code=cart.coupon.code discount=cart.coupon.discount %}
             "{{ code }}" ({{ discount }}% off)
             {% endblocktrans %}
             <span class="neg">- ${{ cart.get_discount|floatformat:2 }}</span>

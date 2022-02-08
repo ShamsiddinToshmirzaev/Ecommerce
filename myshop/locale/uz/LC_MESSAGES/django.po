@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-08 10:08+0500\n"
+"PO-Revision-Date: 2022-02-08 06:04+0000\n"
+"Last-Translator: b'  <admin@mail.ru>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr "jarayon"
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr "bajarildi"
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr "bekor qilingan"
+
+#~ msgid "My Shop"
+#~ msgstr "Mening Do'konim"
+
+#~ msgid "My shop"
+#~ msgstr "Mening Do'konim"
+
+#~ msgid "Language"
+#~ msgstr "Til"
+
+#~ msgid "Your cart"
+#~ msgstr "Sizning savatcha"
+
+#~ msgid ""
+#~ "\n"
+#~ "            %(items)s item, $%(total)s\n"
+#~ "            "
+#~ msgid_plural ""
+#~ "\n"
+#~ "            %(items)s items, $%(total)s\n"
+#~ "            "
+#~ msgstr[0] ""
+#~ "\n"
+#~ "%(items)s buyurtmalar, $%(total)s"
+
+#~ msgid "Your cart is empty."
+#~ msgstr "Savatchangiz bo'sh"
+
+#~ msgid "Add to cart"
+#~ msgstr "Savatchaga qo'shish"
+
+#~ msgid "Product"
+#~ msgstr "Mahsulot"
+
+#~ msgid "Categories"
+#~ msgstr "Kategoriyalar"
+
+#~ msgid "All"
+#~ msgstr "Hammasi"
+
+#~ msgid "Products"
+#~ msgstr "Mahsulotlar"

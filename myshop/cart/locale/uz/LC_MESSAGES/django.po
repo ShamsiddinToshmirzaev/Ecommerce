@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-08 10:08+0500\n"
-"PO-Revision-Date: 2022-02-08 06:08+0000\n"
+"POT-Creation-Date: 2022-02-08 10:21+0500\n"
+"PO-Revision-Date: 2022-02-08 06:10+0000\n"
 "Last-Translator: b'  <admin@mail.ru>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,30 +19,26 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.9.3\n"
 
-#: myshop/settings.py:128
-msgid "English"
-msgstr "Ingliz"
+#: forms.py:10
+msgid "Quantity"
+msgstr "Soni"
 
-#: myshop/settings.py:129
-msgid "Uzbek"
-msgstr "O'zbek"
+#: templates/cart/detail.html:9
+msgid "Your shopping cart"
+msgstr "Sizning Savatchangiz"
 
-#: myshop/urls.py:24
-msgid "admin/"
-msgstr "admin"
+#: templates/cart/detail.html:76
+msgid "Apply a coupon:"
+msgstr "Kuponni kiriting"
 
-#: myshop/urls.py:25
-msgid "cart/"
-msgstr "savat"
+#: templates/cart/detail.html:79
+msgid "Apply"
+msgstr "Yuboring"
 
-#: myshop/urls.py:26
-msgid "orders/"
-msgstr "buyurtmalar"
+#: templates/cart/detail.html:84
+msgid "Continue Shopping"
+msgstr "Xarid Qiling"
 
-#: myshop/urls.py:27
-msgid "payment/"
-msgstr "to'lov"
-
-#: myshop/urls.py:28
-msgid "coupons/"
-msgstr "kuponlar"
+#: templates/cart/detail.html:85
+msgid "Checkout"
+msgstr "Tekshirish"

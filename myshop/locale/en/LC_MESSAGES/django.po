@@ -18,30 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: myshop/settings.py:128
-msgid "English"
+#: payment/urls.py:8
+msgid "process/"
 msgstr ""
 
-#: myshop/settings.py:129
-msgid "Uzbek"
+#: payment/urls.py:9
+msgid "done/"
 msgstr ""
 
-#: myshop/urls.py:24
-msgid "admin/"
-msgstr ""
-
-#: myshop/urls.py:25
-msgid "cart/"
-msgstr ""
-
-#: myshop/urls.py:26
-msgid "orders/"
-msgstr ""
-
-#: myshop/urls.py:27
-msgid "payment/"
-msgstr ""
-
-#: myshop/urls.py:28
-msgid "coupons/"
+#: payment/urls.py:10
+msgid "canceled/"
 msgstr ""
