@@ -3,7 +3,7 @@ asgiref==3.4.1
 Babel==2.9.1
 billiard==3.6.4.0
 braintree==3.59.0
-cairocffi===file-.cairocffi-VERSION
+cairocffi==1.2.0
 CairoSVG==2.5.2
 celery==4.4.2
 certifi==2021.10.8
