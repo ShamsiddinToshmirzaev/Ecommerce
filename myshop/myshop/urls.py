@@ -27,6 +27,7 @@ urlpatterns = i18n_patterns(
     path(_('payment/'), include('payment.urls', namespace='payment')),
     path(_('coupons/'), include('coupons.urls', namespace='coupons')),
     path('rosetta/', include('rosetta.urls')),
+    path(_('customer/'), include('customer.urls', namespace='customer')),
     path('', include('shop.urls', namespace='shop')),
 )
 if settings.DEBUG:

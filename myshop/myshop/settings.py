@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
     'coupons.apps.CouponsConfig',
+    'customer.apps.CustomerConfig',
     'rosetta',
     'parler',
     'localflavor',
