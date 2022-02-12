@@ -9,9 +9,11 @@ Registration
 
 
 <form method="post" class="order-form">
+    {% csrf_token %}
     {{ form.as_p }}
     <p><input type="submit" value="Register"></p>
-    {% csrf_token %}
+    <p style="margin-top:300px">Already have account? <a href="{% url 'customer:login' %}">Sign in here</a></p>
+
 </form>
 
 {% endblock %}

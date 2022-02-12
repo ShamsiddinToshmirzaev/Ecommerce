@@ -21,14 +21,21 @@
         <p>{% trans "Language" %}:</p>
         <ul class="languages">
             {% for language in languages %}
-            <li>
+            <li style="margin-right:5px">
                 <a href="/{{ language.code }}/"
                    {% if language.code == LANGUAGE_CODE %} class="selected" {% endif %}>
                     {{ language.name_local }}
                 </a>
             </li>
             {% endfor %}
-            <li><a href="{% url 'customer:registration' %}">Registration</a></li>
+
+            {% if request.user.is_authenticated %}
+            Hi,{{ request.user.username }}
+            <a href="{% url 'customer:logout' %}">Logout</a>
+            {% else %}
+            <li><a href="{% url 'customer:registration' %}">SignUp</a></li>
+            <li><a href="{% url 'customer:login' %}">SingIn</a></li>
+            {% endif %}
         </ul>
     </div>
 </div>
