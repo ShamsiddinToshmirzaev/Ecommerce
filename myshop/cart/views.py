@@ -1,4 +1,6 @@
+from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404, redirect
+from django.urls import reverse
 from django.views.decorators.http import require_POST
 from shop.models import Product
 from .cart import Cart
@@ -40,8 +42,11 @@ def cart_detail(request):
     cart_products = [item['product'] for item in cart]
     recommended_products = r.suggest_products_for(cart_products,
                                                   max_results=4)
-    return render(request, 'cart/detail.html', {'cart': cart,
-                                                'coupon_apply_form': coupon_apply_form,
-                                                'recommended_products': recommended_products})
+    if request.user.is_authenticated:
+        return render(request, 'cart/detail.html', {'cart': cart,
+                                                    'coupon_apply_form': coupon_apply_form,
+                                                    'recommended_products': recommended_products})
+    else:
+        return HttpResponseRedirect('%s?next=%s' % (reverse('customer:login'), reverse('orders:order_create')))
 
 
